@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>koushil-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            paddding: 0;
+        }
+
+        body {
+            background-color: rgb(24, 102, 42);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(86, 201, 130);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(157, 21, 103);
+            font-size: 1.01rem;
+
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(15, 10, 21);
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.6rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 110px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+        }
+
+        .rightsection img {
+            width: 50%;
+
+        }
+        .leftsection .buttons{
+            padding: 50px 0;
+        }
+        .leftsection .btn{
+            padding: 12px;
+            background-color: purple;
+            color: antiquewhite;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        
+
+        .Black {
+            color: rgb(0, 0, 0);
+        }
+
+        .text-gray {
+            color: rgb(196, 167, 167);
+            font-family: bold;
+        }
+
+        .footer {
+            background-color: rgb(18, 98, 116);
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer >div {
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: blue;
+            padding: 12px;
+
+        }
+
+        #element {
+            color: black;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+
+        .secondsection .box {
+            background-color: black;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: rgb(44, 38, 38);
+            margin: 0 110px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">koushil's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About me</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
+                    <li><a href="connect.html">Connect</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hello ,My name is <span class="Black">koushil  
+                </span>
+                <div>and I am a</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn R">Download Resume <a href="resume.docx"></a> </button>
+                    
+        
+                    <button class="btn">Visit Github <a href="https://github.com/saikoushil1434"></a></button>
+                </div>
+            </div>
+
+            <div class="rightsection">
+                <img src="koushil.jpg">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">Want to know more about me</span>
+            <h1>Skills</h1>
+            <div class="box">
+                <div class="vertical-title">
+                    C
+                </div>
+                <div class="vertical">
+                    Java
+                </div>
+                <div class="vertical">
+                    Python
+                </div>
+                <div class="vertical">
+                    DBMS
+                </div>
+                <div class="vertical">
+                   web developer
+                </div>
+                <div class="vertical">
+                    Data structures and algo
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>koushil's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>services
+                    </li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>services
+                    </li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>services
+                    </li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            www.koushil's portfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Student', 'Web developer', 'Coder', 'learner'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
